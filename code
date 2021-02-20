@@ -1,0 +1,10 @@
+def func(a, b):
+    c = a + b
+    d = abs(a - b)
+    if a == b or c == 5 or d == 5:
+        return print(True)
+    else:
+        return
+
+func(5, 3)
+func(8, 3)
